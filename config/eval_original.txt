@@ -1,0 +1,16 @@
+root_dir = /home/dlevy/PycharmProjects/nerf_pl/datasets/katzaa
+img_downscale = 2
+dataset_name = phototourism
+split = test_train
+encode_a
+encode_t
+scene_name = katzaa_scale2_nerfw_linearForReal
+N_samples = 64
+N_importance = 64
+N_vocab = 30
+chunk = 65536
+ckpt_path = /home/dlevy/PycharmProjects/nerf_pl/logs/katzaaLinear_scale2_nerfw_linearForReal_orig_NDC_dirNotNormalized_correctNormalization/version_None/checkpoints/epoch=37-step=69464.ckpt
+
+
+num_gpus = 2
+ndc

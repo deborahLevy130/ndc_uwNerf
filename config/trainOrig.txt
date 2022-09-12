@@ -1,0 +1,19 @@
+beta_min = 0.03
+num_epochs = 40
+batch_size = 4096
+optimizer = adam
+lr = 1e-3
+lr_scheduler = cosine
+
+root_dir = /home/dlevy/PycharmProjects/nerf_pl/datasets/katzaa
+img_downscale = 2
+dataset_name = phototourism
+encode_a
+encode_t
+N_samples = 64
+N_importance = 64
+N_vocab = 30
+
+ndc
+
+exp_name = katzaaLinear_scale2_nerfw_linearForReal_orig_NDC_dirNotNormalized_correctNormalizationForReal

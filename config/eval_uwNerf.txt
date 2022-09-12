@@ -1,0 +1,24 @@
+root_dir = /home/dlevy/PycharmProjects/nerf_pl/datasets/katzaa
+img_downscale = 2
+dataset_name = phototourism
+split = test_train
+encode_a
+encode_t
+scene_name = katzaaLinear_scale2_nerfw_linearForReal_uwNerf_bs_beta_objectSigma_use_disp
+N_samples = 64
+N_importance = 128
+N_vocab = 30
+chunk = 65536
+ckpt_path = /home/dlevy/PycharmProjects/nerf_pl/logs/katzaaLinear_scale2_nerfw_linearForReal_uwNerf_bs_beta_objectSigma_use_disp/version_None/checkpoints/epoch=29-step=219570.ckpt
+
+
+
+
+num_gpus = 2
+
+
+N_tau = 12
+N_a = 6
+uw_nerf
+use_disp
+no_atten
